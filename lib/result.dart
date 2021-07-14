@@ -8,6 +8,7 @@ class Result extends StatelessWidget {
   Result(this.resultScore, this.resetHandler) {
     if (this.resultScore >= 14) {
       resultString = 'You are awesome';
+      // print("person is awesome");
     } else if (this.resultScore >= 11) {
       resultString = 'You are theek thaak';
     } else {
